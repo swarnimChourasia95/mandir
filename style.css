@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+ scroll-behavior: smooth;
+}
+.clr{clear: both;}
+.maincontainer{max-width: 100%; padding: 0; margin: 0;}
+.wrap{max-width: 1024px; padding: 0; margin: 0 auto;}
+.wraper{max-width: 800px; padding: 0; margin: 0 auto;}
+
+.navigation_part{background-color: #000; padding: 10px 0;}
+.logo_nav{ float: left;}
+.logo_nav a{font-size: 14px; line-height: 26px; color: #fff; font-family: "Roboto", sans-serif; text-decoration: none; text-transform: uppercase;}
+.nav_bars{float: right;}
+.nav_bars ul{display: flex;}
+.nav_bars ul li{margin: 0 10px;}
+.nav_bars ul li a{font-size: 14px; line-height: 26px; font-weight: 600; color:#fff; text-transform: uppercase; text-decoration: none;}
+.nav_bars ul li a:hover{color: #b12828;}
+/* navigation */
+.hero_section{background: url(./img/img11.jpg) no-repeat center center; background-size: cover; min-height: 400px;}
+.hero_banner{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero_banner h2{text-transform: capitalize; color: #fff; font-family: "Roboto", sans-serif;}
+.pera_hero{padding: 20px 0;}
+.pera_hero p{text-align: center; color: #fff; font-size: 16px; font-family: "Roboto", sans-serif;}
+
+.custom-btn {
+  background-color: #b12828;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-btn:hover {
+  background-color: #b12828;
+}
+/* finish hero section */
+.about_US_main{padding: 10px 0;}
+.about_us{padding: 10px 0;}
+.about_us h3{text-align: center;   font-family: "Roboto", sans-serif; text-transform: capitalize; font-size: 30px; line-height: 36px; color: #b12828;}
+.about_us p{text-align: center; font-size: 16px; line-height: 26px;   font-family: "Roboto", sans-serif; color: #3b3535;}
+
+.temple-slider {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.temple-wrapper {
+  overflow: hidden;   /* 🔥 THIS IS IMPORTANT */
+}
+
+.temple-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.temple-card {
+  width: 300px; /* fixed width instead of min-width */
+  height: 320px; /* fixed total height */
+  margin: 10px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.temple-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.temple-card h3{font-family: "Roboto", sans-serif; line-height: 36px; color: #b12828;}
+.temple-card p{font-family: "Roboto", sans-serif; line-height: 26px;  color: #3b3535; font-weight: 500;}
+/* .prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #b12828;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+} */
+/* 
+.prev { left: 0; }
+.next { right: 0; } */
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+    margin:20px 0 0 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Left Image */
+.card img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Right Content */
+.card-content h3 {
+  margin: 0 0 10px;
+  color: #b12828;
+font-family: "Roboto", sans-serif;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-content a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #b12828;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.footer-col h3 {
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b12828;
+}
+
+/* Contact text */
+.footer-col p {
+  margin: 5px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Subscribe */
+.subscribe-form {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.subscribe-form input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+}
+
+.subscribe-form button {
+  background: #b12828;
+  color: #fff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-col {
+    width: 100%;
+  }
+}
